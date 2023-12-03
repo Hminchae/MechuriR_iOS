@@ -1,0 +1,47 @@
+[
+    {
+      "createdDate": "2023-10-17T14:59:47.634231",
+      "modifiedDate": "2023-10-17T14:59:47.634231",
+      "diaryId": 1,
+      "exDiaryId": 1,
+      "userId": 1,
+      "writing": "덱훈 센세 잘생김",
+      "img": "sampleDiaryImage"
+    },
+    {
+      "createdDate": "2023-10-17T14:59:47.634231",
+      "modifiedDate": "2023-10-17T14:59:47.634231",
+      "diaryId": 1,
+      "exDiaryId": 1,
+      "userId": 1,
+      "writing": "목아프다ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ",
+      "img": "sampleDiaryImage"
+    },
+    {
+      "createdDate": "2023-10-17T14:59:47.634231",
+      "modifiedDate": "2023-10-17T14:59:47.634231",
+      "diaryId": 1,
+      "exDiaryId": 1,
+      "userId": 1,
+      "writing": "캬ㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑㅑ",
+      "img": "sampleDiaryImage"
+    },
+    {
+      "createdDate": "2023-10-17T14:59:47.634231",
+      "modifiedDate": "2023-10-17T14:59:47.634231",
+      "diaryId": 1,
+      "exDiaryId": 1,
+      "userId": 1,
+      "writing": "아 저녁먹어야지~~~~~~~~~~~~~~",
+      "img": "sampleDiaryImage"
+    },
+    {
+      "createdDate": "2023-10-17T14:59:47.634231",
+      "modifiedDate": "2023-10-17T14:59:47.634231",
+      "diaryId": 1,
+      "exDiaryId": 1,
+      "userId": 1,
+      "writing": "메모리 추억 리멤버 알림장 메모리 추억 리멤버 알림장 메모리 추억 리멤버 알림장 메모리 추억 리멤버 알림장 메모리 추억 리멤버 알림장",
+      "img": "sampleDiaryImage"
+    }
+]

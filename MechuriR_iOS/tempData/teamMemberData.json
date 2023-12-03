@@ -1,0 +1,52 @@
+[
+    {
+      "teamMemberId": 1,
+      "exDiaryId": 1,
+      "memberName": "김덕훈",
+      "memberId": null,
+      "createdDate": "2023-11-25T20:39:55.38382",
+      "modifiedDate": "2023-11-25T20:39:55.38382",
+      "status": "T",
+      "profile": "sampleProfileImage"
+    },
+    {
+      "teamMemberId": 1,
+      "exDiaryId": 1,
+      "memberName": "김민재",
+      "memberId": null,
+      "createdDate": "2023-11-25T20:39:55.38382",
+      "modifiedDate": "2023-11-25T20:39:55.38382",
+      "status": "T",
+      "profile": "sampleProfileImage"
+    },
+    {
+      "teamMemberId": 1,
+      "exDiaryId": 1,
+      "memberName": "노주영",
+      "memberId": null,
+      "createdDate": "2023-11-25T20:39:55.38382",
+      "modifiedDate": "2023-11-25T20:39:55.38382",
+      "status": "T",
+      "profile": "sampleProfileImage"
+    },
+    {
+      "teamMemberId": 1,
+      "exDiaryId": 1,
+      "memberName": "강치우",
+      "memberId": null,
+      "createdDate": "2023-11-25T20:39:55.38382",
+      "modifiedDate": "2023-11-25T20:39:55.38382",
+      "status": "T",
+      "profile": "sampleProfileImage"
+    },
+    {
+      "teamMemberId": 1,
+      "exDiaryId": 1,
+      "memberName": "이창준",
+      "memberId": null,
+      "createdDate": "2023-11-25T20:39:55.38382",
+      "modifiedDate": "2023-11-25T20:39:55.38382",
+      "status": "T",
+      "profile": "sampleProfileImage"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+      "noticeId": 1,
+      "getUser": "박수현",
+      "sendUser": "박수현1",
+      "noticeType": "newDiaryGroup",
+      "exDiaryId": 1,
+      "content": "새로운 일기장 [멍충멍충] 에 초대되었어요.",
+      "noticeURL": "http://~~",
+      "createdDate": "2023-11-02T18:55:40.591693",
+      "modifiedDate": "2023-11-02T18:55:40.591693",
+      "readCheck": "T"
+    },
+    {
+      "noticeId": 1,
+      "getUser": "박수현",
+      "sendUser": "박수현1",
+      "noticeType": "newDiary",
+      "exDiaryId": 1,
+      "content": "[부산여행] 일기장에 새로운 일기가 올라왔어요.",
+      "noticeURL": "http://~~",
+      "createdDate": "2023-11-02T18:55:40.591693",
+      "modifiedDate": "2023-11-02T18:55:40.591693",
+      "readCheck": "T"
+    },
+    {
+      "noticeId": 1,
+      "getUser": "박수현",
+      "sendUser": "박수현1",
+      "noticeType": "newFriend",
+      "exDiaryId": 1,
+      "content": "황민채 님이 친구를 신청했어요.",
+      "noticeURL": "http://~~",
+      "createdDate": "2023-11-02T18:55:40.591693",
+      "modifiedDate": "2023-11-02T18:55:40.591693",
+      "readCheck": "T"
+    },
+    {
+      "noticeId": 1,
+      "getUser": "박수현",
+      "sendUser": "박수현1",
+      "noticeType": "newLetter",
+      "exDiaryId": 1,
+      "content": "새 편지가 도착했어요.",
+      "noticeURL": "http://~~",
+      "createdDate": "2023-11-02T18:55:40.591693",
+      "modifiedDate": "2023-11-02T18:55:40.591693",
+      "readCheck": "T"
+    },
+    {
+      "noticeId": 1,
+      "getUser": "박수현",
+      "sendUser": "박수현1",
+      "noticeType": "newLetter",
+      "exDiaryId": 1,
+      "content": "안녕~~",
+      "noticeURL": "http://~~",
+      "createdDate": "2023-11-02T18:55:40.591693",
+      "modifiedDate": "2023-11-02T18:55:40.591693",
+      "readCheck": "T"
+    }
+]

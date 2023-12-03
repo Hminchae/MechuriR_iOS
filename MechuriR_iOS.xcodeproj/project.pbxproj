@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1783EC02B1B543500C4590D /* MechuriR_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783EBF2B1B543500C4590D /* MechuriR_iOSApp.swift */; };
+		B1783EC22B1B543500C4590D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783EC12B1B543500C4590D /* ContentView.swift */; };
+		B1783EC42B1B543600C4590D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1783EC32B1B543600C4590D /* Assets.xcassets */; };
+		B1783EC72B1B543600C4590D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1783EC62B1B543600C4590D /* Preview Assets.xcassets */; };
+		B1783ED82B1B59EA00C4590D /* colorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783ED72B1B59EA00C4590D /* colorExtension.swift */; };
+		B1783EDA2B1B5A1D00C4590D /* fontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783ED92B1B5A1D00C4590D /* fontExtension.swift */; };
+		B1783EDE2B1B5E0E00C4590D /* MainTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783EDD2B1B5E0E00C4590D /* MainTopCell.swift */; };
+		B1783EE72B1B611D00C4590D /* Cafe24SsurroundAir.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1783EE52B1B611D00C4590D /* Cafe24SsurroundAir.ttf */; };
+		B1783EE82B1B611D00C4590D /* Cafe24Ssurround.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1783EE62B1B611D00C4590D /* Cafe24Ssurround.ttf */; };
+		B1783EEA2B1B617A00C4590D /* MyPageTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783EE92B1B617A00C4590D /* MyPageTopCell.swift */; };
+		B1783EED2B1B804C00C4590D /* NoticeTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783EEC2B1B804C00C4590D /* NoticeTopCell.swift */; };
+		B1783EEF2B1B815800C4590D /* DiaryDetailTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783EEE2B1B815800C4590D /* DiaryDetailTopCell.swift */; };
+		B1783EF12B1B86BA00C4590D /* MakeNewDiaryTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783EF02B1B86BA00C4590D /* MakeNewDiaryTopCell.swift */; };
+		B1783EF32B1B87A100C4590D /* DiaryMembersListTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783EF22B1B87A100C4590D /* DiaryMembersListTopCell.swift */; };
+		B1783EF52B1B88E800C4590D /* WriteNewLetterTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783EF42B1B88E800C4590D /* WriteNewLetterTopCell.swift */; };
+		B1783EF72B1B8B6100C4590D /* ReceivedLetterTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783EF62B1B8B6100C4590D /* ReceivedLetterTopCell.swift */; };
+		B1783EF92B1B8B7300C4590D /* SentLetterTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783EF82B1B8B7300C4590D /* SentLetterTopCell.swift */; };
+		B1783EFB2B1B8C1A00C4590D /* FriendsListTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783EFA2B1B8C1A00C4590D /* FriendsListTopCell.swift */; };
+		B1783EFD2B1B8C3200C4590D /* AddFriendsTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783EFC2B1B8C3200C4590D /* AddFriendsTopCell.swift */; };
+		B1783EFF2B1B8DCC00C4590D /* MakeNewDiaryGroupTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783EFE2B1B8DCC00C4590D /* MakeNewDiaryGroupTopCell.swift */; };
+		B1783F012B1B90D000C4590D /* MainFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F002B1B90D000C4590D /* MainFrameView.swift */; };
+		B1783F032B1B951E00C4590D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F022B1B951E00C4590D /* MainView.swift */; };
+		B1783F052B1B955E00C4590D /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F042B1B955E00C4590D /* MyPageView.swift */; };
+		B1783F072B1B984900C4590D /* ExDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F062B1B984900C4590D /* ExDiary.swift */; };
+		B1783F092B1B985B00C4590D /* TeamMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F082B1B985B00C4590D /* TeamMember.swift */; };
+		B1783F0B2B1B986400C4590D /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F0A2B1B986400C4590D /* Diary.swift */; };
+		B1783F0D2B1B986C00C4590D /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F0C2B1B986C00C4590D /* Comment.swift */; };
+		B1783F0F2B1B987800C4590D /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F0E2B1B987800C4590D /* Notice.swift */; };
+		B1783F112B1B9A6200C4590D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F102B1B9A6200C4590D /* User.swift */; };
+		B1783F132B1BA67700C4590D /* NoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F122B1BA67700C4590D /* NoticeView.swift */; };
+		B1783F152B1BAA0100C4590D /* NoticeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F142B1BAA0100C4590D /* NoticeListCell.swift */; };
+		B1783F172B1BAFA400C4590D /* noticeData.json in Resources */ = {isa = PBXBuildFile; fileRef = B1783F162B1BAFA400C4590D /* noticeData.json */; };
+		B1783F1B2B1BB0B400C4590D /* tempStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F1A2B1BB0B400C4590D /* tempStore.swift */; };
+		B1783F1D2B1BC16800C4590D /* MakeNewDiaryGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F1C2B1BC16800C4590D /* MakeNewDiaryGroupView.swift */; };
+		B1783F1F2B1BCAE200C4590D /* DiaryMembersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F1E2B1BCAE200C4590D /* DiaryMembersListView.swift */; };
+		B1783F212B1BCBE600C4590D /* teamMemberData.json in Resources */ = {isa = PBXBuildFile; fileRef = B1783F202B1BCBE600C4590D /* teamMemberData.json */; };
+		B1783F252B1BCE2600C4590D /* loadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F242B1BCE2600C4590D /* loadJson.swift */; };
+		B1783F272B1BCED000C4590D /* DiaryMembersListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F262B1BCED000C4590D /* DiaryMembersListCell.swift */; };
+		B1783F292B1BDE6300C4590D /* DiaryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F282B1BDE6300C4590D /* DiaryDetailView.swift */; };
+		B1783F2B2B1BDEA000C4590D /* DiaryDetailMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F2A2B1BDEA000C4590D /* DiaryDetailMenuCell.swift */; };
+		B1783F2D2B1BDEB500C4590D /* DiaryDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F2C2B1BDEB500C4590D /* DiaryDetailCell.swift */; };
+		B1783F2F2B1BE1A400C4590D /* MakeNewDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F2E2B1BE1A400C4590D /* MakeNewDiaryView.swift */; };
+		B1783F312B1BE31D00C4590D /* diaryData.json in Resources */ = {isa = PBXBuildFile; fileRef = B1783F302B1BE31D00C4590D /* diaryData.json */; };
+		B1783F332B1BF45400C4590D /* exDiaryData.json in Resources */ = {isa = PBXBuildFile; fileRef = B1783F322B1BF45400C4590D /* exDiaryData.json */; };
+		B1783F352B1BF45900C4590D /* commentData.json in Resources */ = {isa = PBXBuildFile; fileRef = B1783F342B1BF45900C4590D /* commentData.json */; };
+		B1783F372B1BFED900C4590D /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F362B1BFED900C4590D /* MainViewCell.swift */; };
+		B1783F392B1C801300C4590D /* userData.json in Resources */ = {isa = PBXBuildFile; fileRef = B1783F382B1C801300C4590D /* userData.json */; };
+		B1783F3B2B1C844900C4590D /* LetterAlertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F3A2B1C844900C4590D /* LetterAlertCell.swift */; };
+		B1783F3D2B1C866900C4590D /* DeleteDiaryAlertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F3C2B1C866900C4590D /* DeleteDiaryAlertCell.swift */; };
+		B1783F3F2B1C8D2800C4590D /* WriteNewLetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1783F3E2B1C8D2800C4590D /* WriteNewLetterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1783EBC2B1B543500C4590D /* MechuriR_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MechuriR_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1783EBF2B1B543500C4590D /* MechuriR_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechuriR_iOSApp.swift; sourceTree = "<group>"; };
+		B1783EC12B1B543500C4590D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1783EC32B1B543600C4590D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1783EC62B1B543600C4590D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1783ED72B1B59EA00C4590D /* colorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorExtension.swift; sourceTree = "<group>"; };
+		B1783ED92B1B5A1D00C4590D /* fontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fontExtension.swift; sourceTree = "<group>"; };
+		B1783EDD2B1B5E0E00C4590D /* MainTopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTopCell.swift; sourceTree = "<group>"; };
+		B1783EDF2B1B5FDD00C4590D /* MechuriR-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MechuriR-iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B1783EE52B1B611D00C4590D /* Cafe24SsurroundAir.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Cafe24SsurroundAir.ttf; path = ../../../../MechuriR_Service/MechuriRiOS/MechuriRiOS/fonts/Cafe24SsurroundAir.ttf; sourceTree = "<group>"; };
+		B1783EE62B1B611D00C4590D /* Cafe24Ssurround.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Cafe24Ssurround.ttf; path = ../../../../MechuriR_Service/MechuriRiOS/MechuriRiOS/fonts/Cafe24Ssurround.ttf; sourceTree = "<group>"; };
+		B1783EE92B1B617A00C4590D /* MyPageTopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageTopCell.swift; sourceTree = "<group>"; };
+		B1783EEC2B1B804C00C4590D /* NoticeTopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeTopCell.swift; sourceTree = "<group>"; };
+		B1783EEE2B1B815800C4590D /* DiaryDetailTopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailTopCell.swift; sourceTree = "<group>"; };
+		B1783EF02B1B86BA00C4590D /* MakeNewDiaryTopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeNewDiaryTopCell.swift; sourceTree = "<group>"; };
+		B1783EF22B1B87A100C4590D /* DiaryMembersListTopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryMembersListTopCell.swift; sourceTree = "<group>"; };
+		B1783EF42B1B88E800C4590D /* WriteNewLetterTopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteNewLetterTopCell.swift; sourceTree = "<group>"; };
+		B1783EF62B1B8B6100C4590D /* ReceivedLetterTopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivedLetterTopCell.swift; sourceTree = "<group>"; };
+		B1783EF82B1B8B7300C4590D /* SentLetterTopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentLetterTopCell.swift; sourceTree = "<group>"; };
+		B1783EFA2B1B8C1A00C4590D /* FriendsListTopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListTopCell.swift; sourceTree = "<group>"; };
+		B1783EFC2B1B8C3200C4590D /* AddFriendsTopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendsTopCell.swift; sourceTree = "<group>"; };
+		B1783EFE2B1B8DCC00C4590D /* MakeNewDiaryGroupTopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeNewDiaryGroupTopCell.swift; sourceTree = "<group>"; };
+		B1783F002B1B90D000C4590D /* MainFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFrameView.swift; sourceTree = "<group>"; };
+		B1783F022B1B951E00C4590D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B1783F042B1B955E00C4590D /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
+		B1783F062B1B984900C4590D /* ExDiary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExDiary.swift; sourceTree = "<group>"; };
+		B1783F082B1B985B00C4590D /* TeamMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMember.swift; sourceTree = "<group>"; };
+		B1783F0A2B1B986400C4590D /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		B1783F0C2B1B986C00C4590D /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		B1783F0E2B1B987800C4590D /* Notice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notice.swift; sourceTree = "<group>"; };
+		B1783F102B1B9A6200C4590D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B1783F122B1BA67700C4590D /* NoticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeView.swift; sourceTree = "<group>"; };
+		B1783F142B1BAA0100C4590D /* NoticeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeListCell.swift; sourceTree = "<group>"; };
+		B1783F162B1BAFA400C4590D /* noticeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = noticeData.json; sourceTree = "<group>"; };
+		B1783F1A2B1BB0B400C4590D /* tempStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempStore.swift; sourceTree = "<group>"; };
+		B1783F1C2B1BC16800C4590D /* MakeNewDiaryGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeNewDiaryGroupView.swift; sourceTree = "<group>"; };
+		B1783F1E2B1BCAE200C4590D /* DiaryMembersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryMembersListView.swift; sourceTree = "<group>"; };
+		B1783F202B1BCBE600C4590D /* teamMemberData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teamMemberData.json; sourceTree = "<group>"; };
+		B1783F242B1BCE2600C4590D /* loadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadJson.swift; sourceTree = "<group>"; };
+		B1783F262B1BCED000C4590D /* DiaryMembersListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryMembersListCell.swift; sourceTree = "<group>"; };
+		B1783F282B1BDE6300C4590D /* DiaryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailView.swift; sourceTree = "<group>"; };
+		B1783F2A2B1BDEA000C4590D /* DiaryDetailMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailMenuCell.swift; sourceTree = "<group>"; };
+		B1783F2C2B1BDEB500C4590D /* DiaryDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailCell.swift; sourceTree = "<group>"; };
+		B1783F2E2B1BE1A400C4590D /* MakeNewDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeNewDiaryView.swift; sourceTree = "<group>"; };
+		B1783F302B1BE31D00C4590D /* diaryData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = diaryData.json; sourceTree = "<group>"; };
+		B1783F322B1BF45400C4590D /* exDiaryData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exDiaryData.json; sourceTree = "<group>"; };
+		B1783F342B1BF45900C4590D /* commentData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = commentData.json; path = "../../../../../Downloads/SwiftUI-iOS16-CodeSamples/CarData/commentData.json"; sourceTree = "<group>"; };
+		B1783F362B1BFED900C4590D /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
+		B1783F382B1C801300C4590D /* userData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = userData.json; sourceTree = "<group>"; };
+		B1783F3A2B1C844900C4590D /* LetterAlertCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterAlertCell.swift; sourceTree = "<group>"; };
+		B1783F3C2B1C866900C4590D /* DeleteDiaryAlertCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDiaryAlertCell.swift; sourceTree = "<group>"; };
+		B1783F3E2B1C8D2800C4590D /* WriteNewLetterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteNewLetterView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1783EB92B1B543500C4590D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1783EB32B1B543500C4590D = {
+			isa = PBXGroup;
+			children = (
+				B1783EBE2B1B543500C4590D /* MechuriR_iOS */,
+				B1783EBD2B1B543500C4590D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1783EBD2B1B543500C4590D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1783EBC2B1B543500C4590D /* MechuriR_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1783EBE2B1B543500C4590D /* MechuriR_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B1783EDF2B1B5FDD00C4590D /* MechuriR-iOS-Info.plist */,
+				B1783EBF2B1B543500C4590D /* MechuriR_iOSApp.swift */,
+				B1783EC12B1B543500C4590D /* ContentView.swift */,
+				B1783ED12B1B588A00C4590D /* Sources */,
+				B1783F192B1BB09600C4590D /* tempModel */,
+				B1783F182B1BAFAB00C4590D /* tempData */,
+				B1783ECF2B1B56EB00C4590D /* Resources */,
+				B1783ED62B1B597C00C4590D /* Frameworks */,
+				B1783EC52B1B543600C4590D /* Preview Content */,
+			);
+			path = MechuriR_iOS;
+			sourceTree = "<group>";
+		};
+		B1783EC52B1B543600C4590D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B1783EC62B1B543600C4590D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1783ECD2B1B569D00C4590D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1783F062B1B984900C4590D /* ExDiary.swift */,
+				B1783F082B1B985B00C4590D /* TeamMember.swift */,
+				B1783F0A2B1B986400C4590D /* Diary.swift */,
+				B1783F0C2B1B986C00C4590D /* Comment.swift */,
+				B1783F0E2B1B987800C4590D /* Notice.swift */,
+				B1783F102B1B9A6200C4590D /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B1783ECE2B1B56CF00C4590D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B1783ECF2B1B56EB00C4590D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1783EE42B1B610400C4590D /* Fonts */,
+				B1783ED52B1B595100C4590D /* Customs */,
+				B1783ED42B1B592300C4590D /* Extensions */,
+				B1783EC32B1B543600C4590D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B1783ED02B1B57B100C4590D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1783F002B1B90D000C4590D /* MainFrameView.swift */,
+				B1783F022B1B951E00C4590D /* MainView.swift */,
+				B1783F042B1B955E00C4590D /* MyPageView.swift */,
+				B1783F122B1BA67700C4590D /* NoticeView.swift */,
+				B1783F1C2B1BC16800C4590D /* MakeNewDiaryGroupView.swift */,
+				B1783F1E2B1BCAE200C4590D /* DiaryMembersListView.swift */,
+				B1783F282B1BDE6300C4590D /* DiaryDetailView.swift */,
+				B1783F2E2B1BE1A400C4590D /* MakeNewDiaryView.swift */,
+				B1783F3E2B1C8D2800C4590D /* WriteNewLetterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1783ED12B1B588A00C4590D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B1783ED22B1B58DC00C4590D /* Cells */,
+				B1783ECE2B1B56CF00C4590D /* Network */,
+				B1783ED02B1B57B100C4590D /* Views */,
+				B1783ECD2B1B569D00C4590D /* Models */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B1783ED22B1B58DC00C4590D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B1783F142B1BAA0100C4590D /* NoticeListCell.swift */,
+				B1783F262B1BCED000C4590D /* DiaryMembersListCell.swift */,
+				B1783F2C2B1BDEB500C4590D /* DiaryDetailCell.swift */,
+				B1783F2A2B1BDEA000C4590D /* DiaryDetailMenuCell.swift */,
+				B1783F362B1BFED900C4590D /* MainViewCell.swift */,
+				B1783F3A2B1C844900C4590D /* LetterAlertCell.swift */,
+				B1783F3C2B1C866900C4590D /* DeleteDiaryAlertCell.swift */,
+				B1783EEB2B1B618500C4590D /* TopCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B1783ED42B1B592300C4590D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B1783ED72B1B59EA00C4590D /* colorExtension.swift */,
+				B1783ED92B1B5A1D00C4590D /* fontExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B1783ED52B1B595100C4590D /* Customs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Customs;
+			sourceTree = "<group>";
+		};
+		B1783ED62B1B597C00C4590D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1783EE42B1B610400C4590D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B1783EE62B1B611D00C4590D /* Cafe24Ssurround.ttf */,
+				B1783EE52B1B611D00C4590D /* Cafe24SsurroundAir.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B1783EEB2B1B618500C4590D /* TopCells */ = {
+			isa = PBXGroup;
+			children = (
+				B1783EDD2B1B5E0E00C4590D /* MainTopCell.swift */,
+				B1783EE92B1B617A00C4590D /* MyPageTopCell.swift */,
+				B1783EEC2B1B804C00C4590D /* NoticeTopCell.swift */,
+				B1783EEE2B1B815800C4590D /* DiaryDetailTopCell.swift */,
+				B1783EF02B1B86BA00C4590D /* MakeNewDiaryTopCell.swift */,
+				B1783EFE2B1B8DCC00C4590D /* MakeNewDiaryGroupTopCell.swift */,
+				B1783EF22B1B87A100C4590D /* DiaryMembersListTopCell.swift */,
+				B1783EF42B1B88E800C4590D /* WriteNewLetterTopCell.swift */,
+				B1783EF62B1B8B6100C4590D /* ReceivedLetterTopCell.swift */,
+				B1783EF82B1B8B7300C4590D /* SentLetterTopCell.swift */,
+				B1783EFA2B1B8C1A00C4590D /* FriendsListTopCell.swift */,
+				B1783EFC2B1B8C3200C4590D /* AddFriendsTopCell.swift */,
+			);
+			path = TopCells;
+			sourceTree = "<group>";
+		};
+		B1783F182B1BAFAB00C4590D /* tempData */ = {
+			isa = PBXGroup;
+			children = (
+				B1783F322B1BF45400C4590D /* exDiaryData.json */,
+				B1783F202B1BCBE600C4590D /* teamMemberData.json */,
+				B1783F302B1BE31D00C4590D /* diaryData.json */,
+				B1783F342B1BF45900C4590D /* commentData.json */,
+				B1783F382B1C801300C4590D /* userData.json */,
+				B1783F162B1BAFA400C4590D /* noticeData.json */,
+			);
+			path = tempData;
+			sourceTree = "<group>";
+		};
+		B1783F192B1BB09600C4590D /* tempModel */ = {
+			isa = PBXGroup;
+			children = (
+				B1783F1A2B1BB0B400C4590D /* tempStore.swift */,
+				B1783F242B1BCE2600C4590D /* loadJson.swift */,
+			);
+			path = tempModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1783EBB2B1B543500C4590D /* MechuriR_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1783ECA2B1B543600C4590D /* Build configuration list for PBXNativeTarget "MechuriR_iOS" */;
+			buildPhases = (
+				B1783EB82B1B543500C4590D /* Sources */,
+				B1783EB92B1B543500C4590D /* Frameworks */,
+				B1783EBA2B1B543500C4590D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MechuriR_iOS;
+			productName = MechuriR_iOS;
+			productReference = B1783EBC2B1B543500C4590D /* MechuriR_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1783EB42B1B543500C4590D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B1783EBB2B1B543500C4590D = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = B1783EB72B1B543500C4590D /* Build configuration list for PBXProject "MechuriR_iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1783EB32B1B543500C4590D;
+			productRefGroup = B1783EBD2B1B543500C4590D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1783EBB2B1B543500C4590D /* MechuriR_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1783EBA2B1B543500C4590D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1783F172B1BAFA400C4590D /* noticeData.json in Resources */,
+				B1783F392B1C801300C4590D /* userData.json in Resources */,
+				B1783F352B1BF45900C4590D /* commentData.json in Resources */,
+				B1783EC72B1B543600C4590D /* Preview Assets.xcassets in Resources */,
+				B1783EE82B1B611D00C4590D /* Cafe24Ssurround.ttf in Resources */,
+				B1783EC42B1B543600C4590D /* Assets.xcassets in Resources */,
+				B1783F332B1BF45400C4590D /* exDiaryData.json in Resources */,
+				B1783F212B1BCBE600C4590D /* teamMemberData.json in Resources */,
+				B1783F312B1BE31D00C4590D /* diaryData.json in Resources */,
+				B1783EE72B1B611D00C4590D /* Cafe24SsurroundAir.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1783EB82B1B543500C4590D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1783F132B1BA67700C4590D /* NoticeView.swift in Sources */,
+				B1783F112B1B9A6200C4590D /* User.swift in Sources */,
+				B1783EF72B1B8B6100C4590D /* ReceivedLetterTopCell.swift in Sources */,
+				B1783F252B1BCE2600C4590D /* loadJson.swift in Sources */,
+				B1783F3D2B1C866900C4590D /* DeleteDiaryAlertCell.swift in Sources */,
+				B1783F0D2B1B986C00C4590D /* Comment.swift in Sources */,
+				B1783F032B1B951E00C4590D /* MainView.swift in Sources */,
+				B1783F292B1BDE6300C4590D /* DiaryDetailView.swift in Sources */,
+				B1783EEA2B1B617A00C4590D /* MyPageTopCell.swift in Sources */,
+				B1783ED82B1B59EA00C4590D /* colorExtension.swift in Sources */,
+				B1783F2F2B1BE1A400C4590D /* MakeNewDiaryView.swift in Sources */,
+				B1783EF12B1B86BA00C4590D /* MakeNewDiaryTopCell.swift in Sources */,
+				B1783EC22B1B543500C4590D /* ContentView.swift in Sources */,
+				B1783EFB2B1B8C1A00C4590D /* FriendsListTopCell.swift in Sources */,
+				B1783EF92B1B8B7300C4590D /* SentLetterTopCell.swift in Sources */,
+				B1783F0F2B1B987800C4590D /* Notice.swift in Sources */,
+				B1783EFD2B1B8C3200C4590D /* AddFriendsTopCell.swift in Sources */,
+				B1783EDA2B1B5A1D00C4590D /* fontExtension.swift in Sources */,
+				B1783F072B1B984900C4590D /* ExDiary.swift in Sources */,
+				B1783F2D2B1BDEB500C4590D /* DiaryDetailCell.swift in Sources */,
+				B1783F092B1B985B00C4590D /* TeamMember.swift in Sources */,
+				B1783EDE2B1B5E0E00C4590D /* MainTopCell.swift in Sources */,
+				B1783EEF2B1B815800C4590D /* DiaryDetailTopCell.swift in Sources */,
+				B1783F012B1B90D000C4590D /* MainFrameView.swift in Sources */,
+				B1783F1B2B1BB0B400C4590D /* tempStore.swift in Sources */,
+				B1783F272B1BCED000C4590D /* DiaryMembersListCell.swift in Sources */,
+				B1783F0B2B1B986400C4590D /* Diary.swift in Sources */,
+				B1783EF52B1B88E800C4590D /* WriteNewLetterTopCell.swift in Sources */,
+				B1783EF32B1B87A100C4590D /* DiaryMembersListTopCell.swift in Sources */,
+				B1783EED2B1B804C00C4590D /* NoticeTopCell.swift in Sources */,
+				B1783F1F2B1BCAE200C4590D /* DiaryMembersListView.swift in Sources */,
+				B1783EC02B1B543500C4590D /* MechuriR_iOSApp.swift in Sources */,
+				B1783F1D2B1BC16800C4590D /* MakeNewDiaryGroupView.swift in Sources */,
+				B1783F152B1BAA0100C4590D /* NoticeListCell.swift in Sources */,
+				B1783F372B1BFED900C4590D /* MainViewCell.swift in Sources */,
+				B1783F3F2B1C8D2800C4590D /* WriteNewLetterView.swift in Sources */,
+				B1783F3B2B1C844900C4590D /* LetterAlertCell.swift in Sources */,
+				B1783EFF2B1B8DCC00C4590D /* MakeNewDiaryGroupTopCell.swift in Sources */,
+				B1783F052B1B955E00C4590D /* MyPageView.swift in Sources */,
+				B1783F2B2B1BDEA000C4590D /* DiaryDetailMenuCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B1783EC82B1B543600C4590D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1783EC92B1B543600C4590D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1783ECB2B1B543600C4590D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MechuriR_iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MechuriR-iOS-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thanky.MechuriR-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1783ECC2B1B543600C4590D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MechuriR_iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MechuriR-iOS-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thanky.MechuriR-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1783EB72B1B543500C4590D /* Build configuration list for PBXProject "MechuriR_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1783EC82B1B543600C4590D /* Debug */,
+				B1783EC92B1B543600C4590D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1783ECA2B1B543600C4590D /* Build configuration list for PBXNativeTarget "MechuriR_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1783ECB2B1B543600C4590D /* Debug */,
+				B1783ECC2B1B543600C4590D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1783EB42B1B543500C4590D /* Project object */;
+}
