@@ -5,44 +5,41 @@
 //  Created by 황민채 on 12/3/23.
 //
 
+// MARK: MainFrameView 구성 -> 네비게이션 바 타이틀을 이용해서 메추리알 이미지 + 햄버거 버튼
+
 import SwiftUI
 
 struct MainFrameView: View {
     var body: some View {
         NavigationStack {
-            VStack {
-                Text("dlj")
+            ZStack {
+                Color("bgColor").ignoresSafeArea()
             }
-        }
-        .navigationTitle("d;kf;a")
-        .toolbar {
-            Button {
-                
-            }label: {
-                Image("line.horizontal.3")
-                    .fontWeight(.heavy)
-                    .foregroundStyle(Color.fontColor)
+            .background(Color.bgColor)
+            .navigationBarTitleDisplayMode(.inline) //네비게이션 타이틀은 꼭 네비게이션 뷰 안에서 사용해줘야 함
+            .navigationBarBackButtonHidden (true) //뒤로가기 버튼 히든 하는 코드
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Image("mechuri1")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 30)
+                }
+                ToolbarItem(id: "Right", placement: .navigationBarTrailing, showsByDefault: true) {
+                                
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "line.3.horizontal")
+                            .foregroundStyle(Color.fontColor)
+                            .font(.subheadline)
+                            .fontWeight(.bold)
+                    }
+                }
             }
-        }
+        } //네비게이션 스택 끝
+        
     }
-}
-//오른쪽 네비 버튼
-
-struct CenterMechuriView: View {
-    var body: some View {
-        Image("mechuri1")
-    }
-}
-struct TrailingNaviView: View {
-  var body: some View {
-    Image(systemName: "line.horizontal.3")
-    .resizable()
-    .scaledToFit()
-    .padding(.top, 15)
-    .padding(.trailing, 20)
-    .padding(.bottom, 10)
-    .frame(width: 50, height: 50, alignment: .center)
-  }
 }
 
 #Preview {
